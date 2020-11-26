@@ -35,11 +35,11 @@ import java.lang.reflect.Field;
 import java.util.Map;
 
 public class OTPTest {
+    @SuppressWarnings("unchecked")
     @BeforeEach
     public void purgeUsedTokens() throws NoSuchFieldException, IllegalAccessException {
         final Field field = OTPUtils.class.getDeclaredField("lastUsedCodes");
         field.setAccessible(true);
-        // noinspection unchecked
         ((Map<String, String>) field.get(null)).clear();
     }
 
