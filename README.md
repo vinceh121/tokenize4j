@@ -1,5 +1,6 @@
 # Tokenize for Java (and any JVM-based language)
 [![License](https://img.shields.io/github/license/vinceh121/tokenize4j.svg?style=flat-square)](https://github.com/vinceh121/tokenize4j/blob/master/LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vinceh121/tokenize4j/Java%20CI%20with%20Maven?style=flat-square)](https://github.com/vinceh121/tokenize4j/actions?query=workflow%3A%22Java+CI+with+Maven%22)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/vinceh121/tokenize4j?style=flat-square)](https://github.com/vinceh121/tokenize4j/releases)
 
 ## Installation
