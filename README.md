@@ -1,5 +1,6 @@
 # Tokenize for Java (and any JVM-based language)
 [![License](https://img.shields.io/github/license/vinceh121/tokenize4j.svg?style=flat-square)](https://github.com/vinceh121/tokenize4j/blob/master/LICENSE)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/vinceh121/tokenize4j?style=flat-square)](https://github.com/vinceh121/tokenize4j/releases)
 
 ## Installation
 
