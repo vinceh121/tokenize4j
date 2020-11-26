@@ -35,7 +35,6 @@ class Base32 {
             'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '2', '3', '4', '5', '6', '7'
     };
 
-    @SuppressWarnings("DuplicateExpressions")
     static byte[] decode(final String base32) {
         final int[] b = new int[8];
         final byte[] bytes = new byte[base32.length()];

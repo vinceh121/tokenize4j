@@ -42,7 +42,6 @@ import java.util.regex.Pattern;
  * @author Bowser65
  * @since 09/04/20
  */
-@SuppressWarnings({"WeakerAccess", "unused"})
 public class OTPUtils {
     private static final Map<String, String> lastUsedCodes = new HashMap<>();
 

@@ -41,7 +41,6 @@ import java.security.SecureRandom;
  * @since 10/04/20
  */
 @Getter
-@SuppressWarnings({"WeakerAccess", "unused"})
 public class OTPKey {
     private final String key;
     private final String name;

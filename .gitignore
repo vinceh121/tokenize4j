@@ -9,3 +9,5 @@ build
 # eclipse garbage
 /.classpath
 /.project
+/.settings
+/bin

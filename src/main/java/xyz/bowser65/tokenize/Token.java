@@ -40,7 +40,6 @@ import java.util.Base64;
  * @author Bowser65
  * @since 31/01/20
  */
-@SuppressWarnings({"WeakerAccess", "unused"})
 public class Token {
     private final Tokenize tokenize;
     @Getter

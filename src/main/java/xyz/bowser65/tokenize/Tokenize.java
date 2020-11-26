@@ -45,7 +45,6 @@ import java.util.concurrent.CompletionStage;
  * @author Bowser65
  * @since 10/08/19
  */
-@SuppressWarnings({"WeakerAccess", "unused"})
 public class Tokenize {
     /**
      * Tokenize Token Format version.
