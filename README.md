@@ -47,15 +47,6 @@ public class Main {
         } catch (final SecurityException e) {
             System.out.println("Invalid token signature!");
         }
-
-        // Get an OTP key
-        final OTPKey key = OTPKey.builder().name("Key Name").issuer("Issuer name").build();
-        System.out.println(key.getKey()); // You just need to store this in your database
-        System.out.println(key.getGoogleURI()); // Throw this in a QR code
-
-        // Validate an OTP code
-        System.out.println(OTPUtils.validateTotp("013370", "xxxxxxxxxxxxxxxx"));
-        System.out.println(OTPUtils.validateHotp("013370", "xxxxxxxxxxxxxxxx", 1));
     }
 }
 ```
