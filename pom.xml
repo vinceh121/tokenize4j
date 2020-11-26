@@ -32,6 +32,14 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub vinceh121 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/vinceh121/tokenize4j</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>com.google.code.findbugs</groupId>
