@@ -40,7 +40,7 @@ import java.util.regex.Pattern;
  * Utility class to handle OTP authentication tokens
  *
  * @author Bowser65
- * @since 09/04/20
+ * @since 1.0.0
  */
 public class OTPUtils {
     private static final Map<String, String> lastUsedCodes = new HashMap<>();

@@ -33,7 +33,7 @@ import java.util.concurrent.CompletionStage;
  * Async account fetcher interface
  *
  * @author Bowser65
- * @since 09/04/20
+ * @since 1.0.0
  */
 public interface AsyncAccountFetcher {
     CompletionStage<IAccount> fetchAccount(String id);

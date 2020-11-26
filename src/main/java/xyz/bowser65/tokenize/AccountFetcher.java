@@ -31,7 +31,7 @@ package xyz.bowser65.tokenize;
  * Account fetcher interface
  *
  * @author vinceh121
- * @since 05/02/19
+ * @since 1.0.0
  */
 public interface AccountFetcher {
     IAccount fetchAccount(String id);

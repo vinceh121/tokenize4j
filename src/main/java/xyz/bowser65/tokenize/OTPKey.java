@@ -38,7 +38,7 @@ import java.security.SecureRandom;
  * An OTP key
  *
  * @author Bowser65
- * @since 10/04/20
+ * @since 1.0.0
  */
 @Getter
 public class OTPKey {

@@ -43,7 +43,7 @@ import java.util.concurrent.CompletionStage;
  * Tokenize main class
  *
  * @author Bowser65
- * @since 10/08/19
+ * @since 1.0.0
  */
 public class Tokenize {
     /**

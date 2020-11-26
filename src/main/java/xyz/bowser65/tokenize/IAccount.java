@@ -31,7 +31,7 @@ package xyz.bowser65.tokenize;
  * Interface your Account entity should implement to work with Tokenize
  *
  * @author Bowser65
- * @since 10/08/19
+ * @since 1.0.0
  */
 public interface IAccount {
     /**

@@ -38,7 +38,7 @@ import java.util.Base64;
  * Represents a Tokenize token
  *
  * @author Bowser65
- * @since 31/01/20
+ * @since 1.0.0
  */
 public class Token {
     private final Tokenize tokenize;
