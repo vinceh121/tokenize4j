@@ -2,16 +2,19 @@
 [![License](https://img.shields.io/github/license/vinceh121/tokenize4j.svg?style=flat-square)](https://github.com/vinceh121/tokenize4j/blob/master/LICENSE)
 
 ## Installation
-```
+
 With Gradle:
+```groovy
 repositories {
   maven { url 'https://jitpack.io' }
 }
 dependencies {
-  implementation 'xyz.bowser65:Tokenize:...'
+  implementation 'com.github.vinceh121:tokenize4j:...'
 }
+```
 
 With Maven:
+```xml
 <repositories>
   <repository>
     <id>jitpack.io</id>
@@ -19,8 +22,8 @@ With Maven:
   </repository>
 </repositories>
 <dependency>
-  <groupId>xyz.bowser65</groupId>
-  <artifactId>Tokenize</artifactId>
+  <groupId>com.github.vinceh121</groupId>
+  <artifactId>tokenize4j</artifactId>
   <version>...</version>
 </dependency>
 ```
@@ -40,7 +43,7 @@ public class Main {
         Token token;
         try {
             token = tokenize.validateToken(rawToken, id -> Database.fetchAccount(id));
-        } catch(final SecurityException e) {
+        } catch (final SecurityException e) {
             System.out.println("Invalid token signature!");
         }
 
