@@ -33,11 +33,11 @@ With Maven:
 ## How to use it
 ```java
 public class Main {
-    public static void main(final String[] args) {
-        final Tokenize tokenize = new Tokenize("very secure private key".getBytes());
+    public static void main(String[] args) {
+        Tokenize tokenize = new Tokenize("very secure private key".getBytes());
 
         // Generation
-        final Token token = tokenize.generateToken(account);
+        Token token = tokenize.generateToken(account);
         System.out.println(token); // xxxxxxxx.xxxxxxxxxxx.xxxxxxxxx
 
         // Validation
@@ -45,7 +45,7 @@ public class Main {
         Token token;
         try {
             token = tokenize.validateToken(rawToken, id -> Database.fetchAccount(id));
-        } catch (final SecurityException e) {
+        } catch (SecurityException e) {
             System.out.println("Invalid token signature!");
         }
     }
